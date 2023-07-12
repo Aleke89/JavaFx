@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="43.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.ServiceItemController">
+   <children>
+      <ImageView fx:id="img_service" fitHeight="44.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="name_service" text="Label">
+         <HBox.margin>
+            <Insets left="20.0" />
+         </HBox.margin>
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>

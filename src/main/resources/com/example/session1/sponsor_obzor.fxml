@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.SponsorObzorController">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="114.0" layoutY="20.0" text="MARATHON SKILLS 2016" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_nazad" layoutX="26.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" text="Назад">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_log_out" layoutX="714.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" text="LogOut">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txt_time" layoutY="678.0" prefHeight="39.0" prefWidth="800.0" style="-fx-background-color: gray; -fx-alignment: center;" text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="121.0" text="Просмотр спонсоров">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="191.0" text="Отсортировать:">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txf_sortirovka" layoutX="297.0" layoutY="187.0" />
+      <Button fx:id="btn_sortirovka" layoutX="458.0" layoutY="185.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="141.0" text="Сортировать">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="179.0" layoutY="243.0" text="Благотворительные организации:" textFill="#7e7e7e">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="271.0" prefHeight="18.0" prefWidth="198.0" text="Всего спонсорских взносов:" textFill="#7e7e7e">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txt_number_of_organizations" layoutX="420.0" layoutY="243.0" text="10" textFill="#7e7e7e">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txt_all_money_number" layoutX="420.0" layoutY="271.0" text="\$94,450" textFill="#7e7e7e">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table_view" layoutX="122.0" layoutY="296.0" prefHeight="343.0" prefWidth="528.0">
+        <columns>
+          <TableColumn fx:id="clm_logotip" prefWidth="146.4000244140625" text="Логотип" />
+          <TableColumn fx:id="clm_name" minWidth="0.0" prefWidth="199.20001220703125" text="Наименование" />
+            <TableColumn fx:id="clm_amount" minWidth="0.0" prefWidth="181.5999755859375" text="Сумма" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

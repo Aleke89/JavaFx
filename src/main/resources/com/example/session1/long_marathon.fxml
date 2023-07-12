@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.LongMarathonController">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="114.0" layoutY="20.0" text="MARATHON SKILLS 2016" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_nazad" layoutX="26.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" text="Назад">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_log_out" layoutX="714.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" text="LogOut">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txt_time" layoutY="663.0" prefHeight="39.0" prefWidth="800.0" style="-fx-background-color: gray; -fx-alignment: center;" text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="231.0" layoutY="128.0" text="Насколько долгий марафон?">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="txt_destination_name" layoutX="92.0" layoutY="183.0" text="Имя выбранного пункта" textFill="#6b6b6b">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="217.0" fitWidth="270.0" layoutX="63.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="txt_information" layoutX="34.0" layoutY="451.0" prefHeight="63.0" prefWidth="327.0" text="Информация о скорости выбранного пункта и сколько времени это взяло бы, чтобы закончить марафон." textAlignment="CENTER" textFill="#6b6b6b" wrapText="true">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_velocity" layoutX="431.0" layoutY="178.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="134.0" style="-fx-background-color: transparent; -fx-border-color: gray;" text="Скорость">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_destination" layoutX="572.0" layoutY="178.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: transparent; -fx-border-color: gray;" text="Дистанция">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <ScrollPane fx:id="scroll_pane" layoutX="431.0" layoutY="220.0" prefHeight="386.0" prefWidth="327.0" />
+   </children>
+</AnchorPane>

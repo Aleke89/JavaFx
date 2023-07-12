@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.ProfileEditController">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="114.0" layoutY="20.0" text="MARATHON SKILLS 2016" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_nazad" layoutX="26.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" text="Назад">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_log_out" layoutX="714.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" text="LogOut">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txt_time" layoutY="645.0" prefHeight="39.0" prefWidth="800.0" style="-fx-background-color: gray; -fx-alignment: center;" text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Text layoutX="96.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Редактирование профиля">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="96.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="102.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="102.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пол:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата рождения:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Страна:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="479.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фото файл:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txf_name" layoutX="142.0" layoutY="251.0" promptText="Имя">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txf_surname" layoutX="142.0" layoutY="296.0" promptText="Фамилия">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txf_photo" layoutX="415.0" layoutY="296.0" promptText="Photo_logo.jpg">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="544.0" layoutY="446.0" promptText="Password">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="544.0" layoutY="484.0" promptText="Re-enter password">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="411.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повтор пароля:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="469.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="chs_gender" layoutX="142.0" layoutY="350.0" prefHeight="26.0" prefWidth="175.0" />
+      <ChoiceBox fx:id="chs_country" layoutX="142.0" layoutY="443.0" prefHeight="26.0" prefWidth="175.0" />
+      <DatePicker fx:id="dp_birth_date" layoutX="142.0" layoutY="396.0" promptText=" 1978-07-16" />
+      <Text fx:id="txt_email" fill="#767676" layoutX="150.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the.email@address.com">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="537.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Смена пароля">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#767676" layoutX="472.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оставьте эти поля, незаполненными, если вы не хотите изменять пароль." textAlignment="CENTER" wrappingWidth="250.0">
+         <font>
+            <Font name="Arial Italic" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_save" layoutX="226.0" layoutY="597.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="116.0" text="Сохранить">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_otmena" layoutX="400.0" layoutY="597.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="120.0" text="Отмена">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_prosmotr" layoutX="613.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="120.0" text="Просмотр…">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="img" fitHeight="150.0" fitWidth="175.0" layoutX="586.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

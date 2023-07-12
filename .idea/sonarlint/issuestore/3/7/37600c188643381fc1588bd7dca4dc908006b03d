@@ -1,0 +1,15 @@
+
+w	java:S116"VRename this field "btn_log_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ÿ¨Úÿÿÿÿÿ8½µıŠ1
+p	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹8½µıŠ1
+v	java:S116"URename this field "btn_otmena" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ş™Šüÿÿÿÿ8‚½µıŠ1
+|	java:S116"[Rename this field "btn_registration" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¡™ıÿÿÿÿ8‚½µıŠ1
+o	java:S116"SRename this field "chk_full" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¾À¯8‚½µıŠ1
+o	java:S116"SRename this field "chk_half" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÓí8‚½µıŠ1
+u	java:S116!"TRename this field "chk_small" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ•ş©üÿÿÿÿ8‚½µıŠ1
+w	java:S116$"[Rename this field "choise_box_vznos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ØÉ½8‚½µıŠ1
+p	java:S116'"ORename this field "rb_A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¬§ùÿÿÿÿ8‚½µıŠ1
+k	java:S116*"ORename this field "rb_B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÀÚ8‚½µıŠ1
+k	java:S116-"ORename this field "rb_C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Šì¦8‚½µıŠ1
+u	java:S1160"TRename this field "txf_summa" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·åÍÖùÿÿÿÿ8‚½µıŠ1
+p	java:S1163"TRename this field "txt_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÙŸç8‚½µıŠ1
+t	java:S1166"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ8‚½µıŠ1

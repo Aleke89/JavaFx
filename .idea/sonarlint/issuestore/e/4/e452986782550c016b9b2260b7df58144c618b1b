@@ -1,0 +1,23 @@
+
+C
+java:S1604E"(Make this anonymous inner class a lambda(İó¹”üÿÿÿÿ
+>
+java:S1604K"(Make this anonymous inner class a lambda(ÿ¨ç…
+C
+java:S1604R"(Make this anonymous inner class a lambda(ùôêıÿÿÿÿ
+D
+java:S1604†"(Make this anonymous inner class a lambda(Ğ­§øÿÿÿÿ
+p	java:S116"VRename this field "btn_log_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ÿ¨Úÿÿÿÿÿ
+i	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹
+o	java:S116"URename this field "btn_otmena" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ş™Šüÿÿÿÿ
+n	java:S116"YRename this field "btn_rassshitat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Äâù
+m	java:S116&"SRename this field "txf_rost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¬™¡øÿÿÿÿ
+l	java:S116)"RRename this field "txf_ves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ô¤øúÿÿÿÿ
+m	java:S116,"SRename this field "txt_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î—ù¬øÿÿÿÿ
+p	java:S116/"VRename this field "txt_izbitok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®îğşüÿÿÿÿ
+s	java:S1162"YRename this field "txt_nedostatok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÖÇäùÿÿÿÿ
+r	java:S1165"XRename this field "txt_ozhirenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò†¹Úıÿÿÿÿ
+j	java:S1168"URename this field "txt_result" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬õŸÃ
+p	java:S116;"[Rename this field "txt_result_color" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôı‡
+m	java:S116>"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ
+l	java:S116A"WRename this field "txt_zdorovyi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìßÜ

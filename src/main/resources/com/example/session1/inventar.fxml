@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.InventarController">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="114.0" layoutY="20.0" text="MARATHON SKILLS 2016" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_nazad" layoutX="26.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" text="Назад">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_log_out" layoutX="714.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" text="LogOut">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txt_time" layoutY="663.0" prefHeight="39.0" prefWidth="800.0" style="-fx-background-color: gray; -fx-alignment: center;" text="18 дней 8 часов и 17 минут до старта марафона!" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Text fill="#696969" layoutX="335.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Инвентарь">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt_number_registrated" layoutX="25.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Всего зарегистрировано бегунов на марафон: 123">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tableView" layoutX="25.0" layoutY="203.0" prefHeight="387.0" prefWidth="758.0">
+        <columns>
+          <TableColumn fx:id="clm_komplekt" prefWidth="119.20001220703125" text="Комплект" />
+          <TableColumn fx:id="clm_tip_A" prefWidth="120.800048828125" text="Тип А" />
+            <TableColumn fx:id="clm_tip_B" prefWidth="120.800048828125" text="Тип B" />
+            <TableColumn fx:id="clm_tip_C" prefWidth="120.800048828125" text="Тип C" />
+            <TableColumn fx:id="clm_neobchodimo" prefWidth="120.800048828125" text="Необходимо" />
+            <TableColumn fx:id="clm_ostatok" prefWidth="151.19998779296873" text="Остаток" />
+        </columns>
+      </TableView>
+      <Label layoutX="25.0" layoutY="297.0" prefHeight="18.0" prefWidth="758.0" style="-fx-alignment: center; -fx-border-color: gray;" text="Состав комплекта" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_otchet" layoutX="25.0" layoutY="622.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="Отчет">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_postuplenie" layoutX="654.0" layoutY="621.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="129.0" text="Поступление">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

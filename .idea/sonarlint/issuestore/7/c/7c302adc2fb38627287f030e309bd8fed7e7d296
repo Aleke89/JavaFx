@@ -1,0 +1,14 @@
+
+p	java:S116"VRename this field "btn_log_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ÿ¨Úÿÿÿÿÿ
+i	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹
+o	java:S116"URename this field "btn_otmena" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Þ™Šüÿÿÿÿ
+q	java:S116"WRename this field "btn_prosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÜÁ¢úÿÿÿÿ
+h	java:S116"SRename this field "btn_save" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ˆ¢ø
+p	java:S116"VRename this field "chs_country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ß¸ýúÿÿÿÿ
+j	java:S116!"URename this field "chs_gender" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¦¬”
+r	java:S116$"XRename this field "dp_birth_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êµ€ýýÿÿÿÿ
+h	java:S116*"SRename this field "txf_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ðþÖ
+i	java:S116-"TRename this field "txf_photo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÏäÏ
+p	java:S1160"VRename this field "txf_surname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û•ðÃøÿÿÿÿ
+n	java:S1163"TRename this field "txt_email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò«â¾úÿÿÿÿ
+m	java:S1166"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ý˜øÿÿÿÿ

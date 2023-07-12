@@ -1,0 +1,19 @@
+
+n	java:S116"RRename this field "btn_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆåÚ”8¶İ©÷Š1
+u	java:S116"TRename this field "btn_mines" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦µËíûÿÿÿÿ8¶İ©÷Š1
+p	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹8·İ©÷Š1
+v	java:S116"URename this field "btn_otmena" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ş™Šüÿÿÿÿ8·İ©÷Š1
+r	java:S116"WRename this field "btn_zaplatit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ñÜ8·İ©÷Š1
+w	java:S116"VRename this field "chck_koshki" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØğÂ÷üÿÿÿÿ8·İ©÷Š1
+u	java:S116"TRename this field "chs_begun" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûº¯æüÿÿÿÿ8¸İ©÷Š1
+o	java:S116""SRename this field "txf_card" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğù©8¸İ©÷Š1
+v	java:S116%"ZRename this field "txf_card_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ğ³¸8¸İ©÷Š1
+n	java:S116("RRename this field "txf_cvc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÏ£8¹İ©÷Š1
+u	java:S116+"TRename this field "txf_month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¿êùÿÿÿÿ8¹İ©÷Š1
+o	java:S116."SRename this field "txf_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ğşÖ8¹İ©÷Š1
+u	java:S1161"TRename this field "txf_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßù±Êùÿÿÿÿ8ºİ©÷Š1
+o	java:S1164"SRename this field "txf_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¬·8ºİ©÷Š1
+p	java:S1167"TRename this field "txt_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÙŸç8ºİ©÷Š1
+t	java:S116:"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ8»İ©÷Š1
+£
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8»İ©÷Š1

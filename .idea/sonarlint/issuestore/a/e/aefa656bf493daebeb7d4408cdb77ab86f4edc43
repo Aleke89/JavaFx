@@ -1,0 +1,13 @@
+
+n	java:S116"TRename this field "btn_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºšŒéûÿÿÿÿ
+j	java:S116"URename this field "btn_runner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¨Æ
+p	java:S116"VRename this field "btn_sponsor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÎ”‹ÿÿÿÿÿ
+i	java:S116"TRename this field "btn_uznat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûú­Û
+m	java:S116"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ
+Q
+java:S1128	"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8õ°ÓüŠ1
+V
+java:S1128
+"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8õ°ÓüŠ1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8õ°ÓüŠ1

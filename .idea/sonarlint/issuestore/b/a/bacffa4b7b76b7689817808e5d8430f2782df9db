@@ -1,0 +1,16 @@
+
+p	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹8…½‰ıŠ1
+v	java:S116"URename this field "btn_otmena" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ş™Šüÿÿÿÿ8…½‰ıŠ1
+x	java:S116"WRename this field "btn_prosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÜÁ¢úÿÿÿÿ8…½‰ıŠ1
+|	java:S116"[Rename this field "btn_registration" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¡™ıÿÿÿÿ8…½‰ıŠ1
+x	java:S116"WRename this field "chbx_country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ø’üúÿÿÿÿ8†½‰ıŠ1
+r	java:S116"VRename this field "chbx_gender" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚æˆí8†½‰ıŠ1
+t	java:S116 "XRename this field "dtp_birth_day" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠ¤Ş8†½‰ıŠ1
+x	java:S116#"WRename this field "img_prosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿±«­ÿÿÿÿÿ8†½‰ıŠ1
+p	java:S116&"TRename this field "txf_email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÛ”Ş8†½‰ıŠ1
+u	java:S116)"TRename this field "txf_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©µ«Ïüÿÿÿÿ8†½‰ıŠ1
+o	java:S116,"SRename this field "txf_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ğşÖ8†½‰ıŠ1
+x	java:S116/"WRename this field "txf_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úƒŒĞùÿÿÿÿ8†½‰ıŠ1
+	java:S1162"^Rename this field "txf_password_repeat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÍÿÿÿÿÿ8†½‰ıŠ1
+w	java:S1165"VRename this field "txf_surname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û•ğÃøÿÿÿÿ8†½‰ıŠ1
+t	java:S1168"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ8†½‰ıŠ1

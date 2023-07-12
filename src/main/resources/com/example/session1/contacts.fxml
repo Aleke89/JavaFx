@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.session1.ContactsController">
+   <children>
+      <Text layoutX="202.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контакты">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Для получения дополнительной информации пожалуйста свяжитесь с координаторами" textAlignment="CENTER" wrappingWidth="400.0">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:  " textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt_number" layoutX="131.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+55 11 9988 7766" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt_email" layoutX="131.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="coordinators@marathonskills.org" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

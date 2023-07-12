@@ -1,0 +1,9 @@
+
+s	java:S116"WRename this field "btn_inventar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÌê¦8¾Â±üŠ1
+p	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹8¾Â±üŠ1
+p	java:S116"URename this field "btn_nazad1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÃ‡b8¾Â±üŠ1
+x	java:S116"\Rename this field "btn_organizations" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡„×â8¾Â±üŠ1
+u	java:S116"TRename this field "btn_users" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïôúÃÿÿÿÿÿ8¾Â±üŠ1
+z	java:S116"YRename this field "btn_volenteers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÝŒçøÿÿÿÿ8¾Â±üŠ1
+v	java:S116"ZRename this field "txt_person_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆºý8¾Â±üŠ1
+t	java:S116 "SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ý˜øÿÿÿÿ8¾Â±üŠ1

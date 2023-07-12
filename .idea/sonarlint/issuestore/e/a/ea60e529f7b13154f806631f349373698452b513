@@ -1,0 +1,13 @@
+
+w	java:S116"VRename this field "btn_log_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ÿ¨Úÿÿÿÿÿ8•¿ûşŠ1
+p	java:S116"TRename this field "btn_nazad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¿Ê‹8•¿ûşŠ1
+v	java:S116"URename this field "btn_otchet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Š™Êúÿÿÿÿ8•¿ûşŠ1
+u	java:S116"ZRename this field "btn_postuplenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÔ™.8•¿ûşŠ1
+x	java:S116"WRename this field "clm_komplekt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÜ—¼øÿÿÿÿ8•¿ûşŠ1
+v	java:S116"ZRename this field "clm_neobchodimo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ ûƒ8•¿ûşŠ1
+w	java:S116"VRename this field "clm_ostatok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄµÙ§úÿÿÿÿ8•¿ûşŠ1
+p	java:S116""TRename this field "clm_tip_A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø§8•¿ûşŠ1
+u	java:S116%"TRename this field "clm_tip_B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ ›ªşÿÿÿÿ8–¿ûşŠ1
+u	java:S116("TRename this field "clm_tip_C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŒå¡úÿÿÿÿ8–¿ûşŠ1
+‚	java:S116."aRename this field "txt_number_registrated" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦µ‹®ÿÿÿÿÿ8–¿ûşŠ1
+t	java:S1161"SRename this field "txt_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ı˜øÿÿÿÿ8–¿ûşŠ1
